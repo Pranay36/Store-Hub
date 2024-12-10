@@ -1,12 +1,13 @@
 import { v2 as cloudinary } from "cloudinary";
 import { timeStamp } from "console";
 import fs from "fs";
-
+import dotenv from "dotenv";
+dotenv.config({ path: "./.env" });
 
 cloudinary.config({
-    cloud_name: "doywot8kd",
-    api_key: "414587351477474",
-    api_secret: "eRshIunjkiWhj8o8rCjM98TpRpo",
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 // console.log("CLOUDINARY_CLOUD_NAME:", `${process.env.CLOUDINARY_CLOUD_NAME}`);
 // console.log("CLOUDINARY_API_KEY:", `${process.env.CLOUDINARY_API_KEY}`);
