@@ -2,6 +2,12 @@
 
 This project is a powerful backend application designed for seamless file storage and management, much like Google Drive. Built with MongoDB, Express, and Node.js, it offers a robust set of features including secure user authentication, smooth file uploads, intuitive folder management, and efficient media streaming—creating a reliable, scalable solution for all your file handling needs.
 
+![image](https://github.com/Pranay36/Store-Hub/blob/main/assets/storehub%201.png)
+
+![image](https://github.com/Pranay36/Store-Hub/blob/main/assets/storehub%202.png)
+![image](https://github.com/Pranay36/Store-Hub/blob/main/assets/storehub%203.png)
+![image](https://github.com/Pranay36/Store-Hub/blob/main/assets/store%20hub%204.png)
+
 
 ## Tech Stack
 
